@@ -236,6 +236,9 @@ endif
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
