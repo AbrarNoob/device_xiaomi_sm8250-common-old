@@ -38,7 +38,7 @@ persist.vendor.cne.feature=1
 persist.wm.enable_remote_keyguard_animation=0
 
 # DPM
-persist.vendor.dpm.feature=1 
+persist.vendor.dpm.feature=11
 
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
