@@ -23,8 +23,11 @@ sys.displayfeature_hidl=true
 # CNE
 persist.vendor.cne.feature=1
 
+# Disable remote keyguard animation
+persist.wm.enable_remote_keyguard_animation=0
+
 # DPM
-persist.vendor.dpm.feature=1
+persist.vendor.dpm.feature=1 
 
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
