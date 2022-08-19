@@ -169,7 +169,6 @@ AUDIO_HARDWARE += audio.r_submix.default
 AUDIO_HARDWARE += audio.primary.kona
 
 PRODUCT_PACKAGES += \
-    audio.a2dp.default \
     audio.bluetooth.default \
     audio.primary.default \
     audio.primary.kona \
